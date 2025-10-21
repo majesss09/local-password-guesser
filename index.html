@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+    <script>
+        var isPassword = false
+        var guesses = 0
+        var password = prompt("Set the password: ","a")
+        while(isPassword == false)
+        {
+            var guess = prompt("Write the password: ","a")
+            var guesses = guesses + 1
+            if(password == guess)
+            {
+              isPassword = true
+            }
+        }
+        document.write("You guessed in ",guesses," guesses.")
+    </script>
+</body>
+</html>
