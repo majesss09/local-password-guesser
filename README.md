@@ -19,6 +19,4 @@ This project contains two main parts:
 
 You can use this to experiment with GUI automation and to learn how automation can interact with modal dialogs and webpages.
 
----
 
-## Files
